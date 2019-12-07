@@ -1,0 +1,4 @@
+Janek;81
+Romek;52
+Gabi;37
+Aga;15

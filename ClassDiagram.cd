@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="wm::Game">
+    <Position X="4.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="wm::Game::MyException">
+        <TypeIdentifier>
+          <NewMemberFileName>Game.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAIAAgAAAAAAAAAAAgAAAAAAAAgABAAIAAABAAAAAAA=</HashCode>
+      <FileName>Game.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wm::GameManager">
+    <Position X="7" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQgAAAAAAAgAAAAAAAAAAAAAAAAAACQEAAAAIA=</HashCode>
+      <FileName>GameManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wm::GameObject">
+    <Position X="2.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wm::InputManager">
+    <Position X="11" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAEAAAA=</HashCode>
+      <FileName>InputManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wm::MathHelper&lt;T&gt;">
+    <Position X="8.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAA=</HashCode>
+      <FileName>MathHelper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wm::Snack">
+    <Position X="0.75" Y="8" Width="2" />
+    <InheritanceLine Type="wm::GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="3.375" Y="7.175" />
+        <Point X="3.375" Y="7.6" />
+        <Point X="1.75" Y="7.6" />
+        <Point X="1.75" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAAAAAAAAAgIAAEAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Snack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wm::Snake">
+    <Position X="3.75" Y="8" Width="2" />
+    <InheritanceLine Type="wm::GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="3.375" Y="7.175" />
+        <Point X="3.375" Y="7.596" />
+        <Point X="4.75" Y="7.596" />
+        <Point X="4.75" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAAAAACCAABIAAABAAAAIAICAGEQAAAAAAAA=</HashCode>
+      <FileName>Snake.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="wm::DIRECTIONS">
+    <Position X="13.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DEFINITIONS.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
